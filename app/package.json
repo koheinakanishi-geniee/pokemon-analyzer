@@ -1,0 +1,32 @@
+{
+  "name": "konbei",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_OPTIONS='--inspect=0.0.0.0:9229'  ./node_modules/.bin/next dev -p 8080",
+    "build": "./node_modules/.bin/next build",
+    "start": "./node_modules/.bin/next start -p 8080",
+    "custom": "node src/custom_server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node-fetch": "^2.5.7",
+    "@types/react-router-dom": "^5.1.5",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.3",
+    "next": "^9.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2",
+    "use-react-router": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.4",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.7",
+    "typescript": "^3.9.7"
+  }
+}
